@@ -1,0 +1,15 @@
+{
+    "compilerOptions": {
+        "outDir": "dist",
+        "target": "es2018",
+        "module": "es2015",
+        "moduleResolution": "node",
+        "resolveJsonModule": true,
+        "isolatedModules": true,
+        "allowJs": true,
+        "checkJs": true,
+        "strictNullChecks": true,
+        "types": []
+    },
+    "include": ["src/**/*.ts", "src/**/*.js"]
+}
