@@ -1,6 +1,6 @@
 {
     "name": "@koncierge/create-starter",
-    "version": "1.0.0",
+    "version": "1.0.7",
     "type": "module",
     "description": "Boilerplate for linting and basic environment configuartion.",
     "main": "dist/index.js",
@@ -10,12 +10,10 @@
         "type": "git",
         "url": "git+https://github.com/koncierge/create-starter.git"
     },
-    "bin": {
-        "create-starter": "./.bin/create-project.js"
-    },
+    "bin": "./bin/create-starter.cjs",
     "scripts": {
         "types": "tsc -w",
-        "next": "node ./.bin/next-version.cjs",
+        "next": "node ./.scripts/next-version.cjs",
         "release": "standard-version"
     },
     "devDependencies": {
