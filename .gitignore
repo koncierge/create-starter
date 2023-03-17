@@ -1,10 +1,16 @@
-### Dependencies & Artifacts ###
+### Build Artifacts ###
 
 /dist
 
+### Dependencies ###
+
 node_modules/
-.sass-cache/
-.cache-loader/
+
+### Environment Variables ###
+
+.env
+.env.*
+!.env.example
 
 ### Log Files ###
 
@@ -38,6 +44,7 @@ logs/
 
 ### System Files ###
 
+.htaccess
 .DS_Store*
 .AppleDouble
 .LSOverride
