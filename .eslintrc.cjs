@@ -16,6 +16,7 @@ module.exports = {
     plugins: ['@typescript-eslint'],
     settings: {},
     rules: {
-        'no-console': 'warn'
+        'no-console': 'warn',
+        'no-protoype-builtins': 'disable'
     }
 };
