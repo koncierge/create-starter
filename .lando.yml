@@ -1,0 +1,4 @@
+name: ledlight
+services:
+    runtime:
+        type: go

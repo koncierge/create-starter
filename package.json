@@ -1,0 +1,29 @@
+{
+    "name": "@koncierge/ledlight",
+    "version": "0.0.0",
+    "type": "module",
+    "description": "Node controller and signal sender for Colorlight HUB75 displays.",
+    "keywords": [],
+    "author": "Koncierge Developers (https://github.com/koncierge)",
+    "license": "SEE LICENSE IN 'LICENSE'",
+    "private": true,
+    "scripts": {
+        "next": "node ./.scripts/next-version.cjs",
+        "release": "commit-and-tag-version"
+    },
+    "devDependencies": {
+        "@commitlint/cli": "^18.4.3",
+        "@commitlint/config-conventional": "^18.4.3",
+        "commit-and-tag-version": "^12.0.0",
+        "conventional-recommended-bump": "^9.0.0",
+        "eslint": "^8.54.0",
+        "eslint-config-prettier": "^9.0.0",
+        "eslint-config-standard": "^17.1.0",
+        "eslint-plugin-import": "^2.29.0",
+        "eslint-plugin-n": "^16.3.1",
+        "eslint-plugin-promise": "^6.1.1",
+        "husky": "^8.0.3",
+        "prettier": "^3.1.0",
+        "semver": "^7.5.4"
+    }
+}

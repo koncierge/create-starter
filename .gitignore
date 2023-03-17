@@ -1,0 +1,56 @@
+### Build Artifacts ###
+
+/dist
+
+### Dependencies ###
+
+node_modules/
+
+### Environment Variables ###
+
+.env
+.env.*
+!.env.example
+
+### Log Files ###
+
+logs/
+*_log
+*.log
+*.log*
+
+### Archives ###
+
+*.7z
+*.dmg
+*.gz
+*.bz2
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
+*.tgz
+
+### Tooling ###
+
+.husky/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+.phpintel/
+.atom/
+.idea/
+
+### System Files ###
+
+.htaccess
+.DS_Store*
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+*.un~

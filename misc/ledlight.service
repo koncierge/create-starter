@@ -1,0 +1,16 @@
+[Unit]
+Description=Ledlight
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=simple
+User=ledlight
+Group=ledlight
+ExecStartPre=/bin/sleep 15
+ExecStart=/opt/ledlight/run
+Restart=always
+RestartSec=5
+
+[Install]
+WantedBy=multi-user.target
